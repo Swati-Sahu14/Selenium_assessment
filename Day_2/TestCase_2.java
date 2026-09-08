@@ -27,7 +27,7 @@ public class TestCase2 {
 		System.out.println("Dom Attribute before passing Email to the email Text Field : "+email.getDomAttribute("value"));
 		System.out.println("Dom Attribute before passing Email to the email Text Field : "+email.getDomProperty("value"));
 		// passing data into the email text field
-		email.sendKeys("23rahul54@gmail.com");
+		email.sendKeys("swathisahu90@gmail.com");
 		//Printing the Dom Attributes after entering data in to the email text field
 		System.out.println("--------------------------After---------------------------");
 		System.out.println("Dom Attribute After passing Email to the email Text Field : "+email.getDomAttribute("value"));
