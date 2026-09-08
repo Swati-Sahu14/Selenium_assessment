@@ -11,7 +11,6 @@ import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
@@ -58,7 +57,6 @@ public class TestCase1 {
 	}
 }
 
-
 TestCase-2
 Navigate to Myntra application.
 Search for any product.
@@ -68,8 +66,6 @@ Verify whether it is added or not.
 package assessments;
 
 import java.time.Duration;
-
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
