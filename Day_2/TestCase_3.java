@@ -3,7 +3,7 @@ package Assessment.Day_2;
 /*
 //Testcase 3 
 1.Navigate to demowebshop
-2.Identify the webelement(14.1-inch laptop)-->identify add to cart button capture the size and them click on the buuton.
+2.Identify the webelement(14.1-inch laptop)-->identify add to cart button capture the size and them click on the button.
 3.Click on shopping cart link.
 4.verify remove check box is selected or not and capture the complete information using getRect().
 5.Verify Alert message is displayed or not before and after clicking on Apply coupon button
@@ -31,7 +31,7 @@ public class TestCase_3 {
 		driver.manage().window().maximize();
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		//Navigate to Myntra application.
+		//Navigate to facebook application.
 		driver.get("https://demowebshop.tricentis.com/");
 		
 		// locate the add to cart button
