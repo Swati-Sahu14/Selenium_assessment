@@ -91,6 +91,7 @@ public class Day3_TestCase1
 		//close the browser
 		driver.quit();
 	}
+}
 
 /*
 //Testcase 2
@@ -153,7 +154,5 @@ public class Day3_TestCase2 {
 		// Close the browser
 		driver.quit();
 	}
-
 }
 
-}
