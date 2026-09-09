@@ -1,3 +1,5 @@
+
+package Assessment_Day2;
 /*Testcase 2 
 
 1.Navigate to facebook application 
@@ -7,7 +9,6 @@
 5.capture the css properties of submit button (minimum 3).
 */
 
-package assessments;
 
 import java.time.Duration;
 
