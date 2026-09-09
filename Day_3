@@ -92,14 +92,14 @@ public class Day3_TestCase1
 		driver.quit();
 	}
 
+/*
 //Testcase 2
-
 1.NAvigate to demo appa qspiders date picker---  (https://demoapps.qspiders.com/ui/datePick?sublist=0)
 2.Click on calender.
 3. Navigate to the next month in the current year.
 4. Select any valid date from that month.
 5. Verify that the selected date is displayed correctly in the date field.
-
+*/
 package assessments;
 
 import java.time.Duration;
