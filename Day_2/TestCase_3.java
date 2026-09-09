@@ -31,7 +31,7 @@ public class TestCase_3 {
 		driver.manage().window().maximize();
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		//Navigate to facebook application.
+		//Navigate to demowebshop application.
 		driver.get("https://demowebshop.tricentis.com/");
 		
 		// locate the add to cart button
