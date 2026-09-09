@@ -26,7 +26,7 @@ public class TestCase_1 {
 		driver.manage().window().maximize();
 		// implicit wait
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
-		//Navigate to Myntra application.
+		//Navigate to facebook application.
 		driver.get("https://www.facebook.com/");
 		//clicking on the create new account button
 		driver.findElement(By.xpath("//span[text()='Create new account']")).click();
