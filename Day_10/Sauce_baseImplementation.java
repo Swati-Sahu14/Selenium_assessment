@@ -16,8 +16,6 @@ import pomUtilities.Sauce_HomePage;
 import pomUtilities.Sauce_LoginPage;
 import pomUtilities.Sauce_checkoutCompletePage;
 
-
-
 public class Sauce_baseImplementation extends Sauce_baseClass {
 
 	@Test(priority = 1)
