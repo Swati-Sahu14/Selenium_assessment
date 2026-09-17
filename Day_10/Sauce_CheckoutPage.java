@@ -6,39 +6,42 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Sauce_CheckoutPage {
+
 	WebDriver driver;
-
-	public Sauce_CheckoutPage(WebDriver driver) {
-		super();
+	
+	public Sauce_CheckoutPage(WebDriver driver)
+	{
 		this.driver = driver;
-		PageFactory.initElements(driver,this);
+		PageFactory.initElements(driver , this);
 	}
 	
-	@FindBy(name = "firstName")
-	private WebElement fntf;
+	@FindBy(id="first-name")
+	private WebElement FName;
 	
-	@FindBy(name = "lastName")
-	private WebElement lntf;
+	@FindBy(id="last-name")
+	private WebElement LName;
 	
-	@FindBy(name = "postalCode")
-	private WebElement zipcodetf;
+	@FindBy(id="postal-code")
+	private WebElement code;
 	
-	@FindBy(name = "continue")
-	private WebElement continueButton;
+	@FindBy(id="continue")
+	private WebElement continuebtn;
 
-	public void getFntf(String value) {
-		fntf.sendKeys(value);
+	public void getFName(String value) {
+		FName.sendKeys(value);
 	}
 
-	public void getLntf(String value) {
-		lntf.sendKeys(value);
+	public void getLName(String value) {
+		LName.sendKeys(value);
 	}
 
-	public void getZipcodetf(String value) {
-		zipcodetf.sendKeys(value);
+	public void getCode(String value) {
+		code.sendKeys(value);
 	}
 
-	public void getContinueButton() {
-		continueButton.click();
+	public void getContinuebtn() {
+		continuebtn.click();
 	}
+	
+	
 }
